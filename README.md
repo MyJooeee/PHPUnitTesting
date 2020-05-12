@@ -78,6 +78,18 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
+## ** About PHPUnit **
+
 ## Set alias to use PHPUnit with internal librairies
 
 alias phpunit="php vendor/phpunit/phpunit/phpunit"
+
+## Code coverage report
+
+You need to have Xdebug enabled to use code coverage report.
+Check if you have Xdebug enabled : php -v, if not :
+    Step 1 : run CLI : php -i
+    Step 2 : paste your output here : https://xdebug.org/wizard
+    Step 3 : if you haven't already : donwload your file php_xdebug[...].dll and move it into your PHP library in etc/php_xdebug[...].dll
+    Step 4 : if you haven't already, add this line to your php.ini :
+             zend_extension = "Absolute\path\to\your\file\php_xdebug[...].dll"
