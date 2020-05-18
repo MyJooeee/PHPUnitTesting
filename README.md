@@ -85,6 +85,10 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 ```bash
 alias phpunit="php vendor/phpunit/phpunit/phpunit"
 ```
+or
+```bash
+alias phpunit="vendor/bin/phpunit"
+```
 
 ## Code coverage report
 
