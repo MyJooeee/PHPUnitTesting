@@ -12,6 +12,12 @@ class ComputeTVA
         self::SERVICES => 0.20 // 20 %
     ];
 
+    /**
+     * @param  string $name
+     * @param  string $name
+     * @param  int $price
+     * @return string
+     */
     public function getTVA($name, $type, $price)
     {
         if (array_key_exists($type, self::TYPES)) {
